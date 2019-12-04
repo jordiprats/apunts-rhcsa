@@ -7,4 +7,10 @@
 - remount rw /sysroot
 - chroot
 - passwd
+- si el sistema estava amb selinux touch /.autorelabel
 
+## boot target
+
+systemctl get-default
+
+systemctl set-default multi-user.target
